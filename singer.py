@@ -4,7 +4,7 @@
 import time
 import pyttsx3
     
-engine = pyttsx3.init()
+engine = pyttsx3.init("espeak")
 
 path = './fastpart.txt'
 f = open(path, 'r')
